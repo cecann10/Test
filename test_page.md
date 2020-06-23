@@ -1,6 +1,10 @@
+### Practice  file
+
 **Testing a markdown file**
 
 :octopus:
+
+`print('hello')`
 
 *italic letters*
 
