@@ -1,0 +1,27 @@
+# %% codecell
+import pandas as pd
+import numpy as np
+# %% codecell
+def Create_Simpsons_DF():
+    simpsons_eps_df = pd.read_csv('https://query.data.world/s/wth7x3tfi4u455rr7qckpudl7sc3pg')
+    simpsons_eps_df.rename(columns={'number_in_season':'episode_number'}, inplace=True)
+    return simpsons_eps_df
+
+# %% codecell
+def Watch_This_Simpsons():
+    '''
+    Randomizer for outputting a Simpsons episode
+    from the series' first 600 episodes, which is
+    seasons 1-27 and 4 episodes from season 28.
+    ---
+    Input: None
+    Output: Dataframe of random selection of Simpson's
+    episode with its title, season, and episode #. Includes
+    intro stringdirecting Garrett to watch episode listed.
+    '''
+    episode = Create_Simpsons_DF()[['title','season','episode_number']].sample()
+    print("Garrett, you should watch:")
+    return episode.groupby(['title','season','episode_number']).first()
+# %% codecell
+Watch_This_Simpsons()
+# %% codecell
