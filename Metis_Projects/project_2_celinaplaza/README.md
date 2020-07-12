@@ -37,9 +37,7 @@ All data was gathered through web-scraping [FuelEconomy.gov](https://www.fueleco
 Functions for web-scraping were developed for relatively 'clean' gathering of data, so minimal effort was needed once data was scraped through the function and all cars' data was pulled together. For minor changes to naming, pandas was used.
 
 - **Methods for analysis and modeling**:
-To prepare data for analysis and modeling, dummies were created for categorical data where needed and some features were removed that were known to be irrelevant to finding predicted value of greenhouse gas emissions from tailpipe of car (the 'yp').
-
-Correlations were then evaluated between all features via numerical, heatmap, and graphs.  Using `statsmodels` the parameters were developed in a linear regression model for features to find predicted value of greenhouse gas emissions from tailpipe of car.
+To prepare data for analysis and modeling, dummies were created for categorical data where needed and some features were removed that were known to be irrelevant to finding predicted value of greenhouse gas emissions from tailpipe of car (the 'yp'). Correlations were then evaluated between all features via numerical, heatmap, and graphs.  Using `statsmodels` the parameters were developed in a linear regression model for features to find predicted value of greenhouse gas emissions from tailpipe of car.
 
 
 ## DATA & FILE OVERVIEW
