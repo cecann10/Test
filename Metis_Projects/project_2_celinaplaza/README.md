@@ -10,7 +10,7 @@ Institution: **Metis**
 
 Email: celina.plaza@gmail.com
 
-Date of data collection: 2020-07-06 - 2020-07-10
+Date of data collection: 2020-07-06 through 2020-17-10
 
 ## PROJECT OVERVIEW
 ### Context
@@ -63,13 +63,13 @@ Correlations were then evaluated between all features via numerical, heatmap, an
 
 ## SHARING/ACCESS INFORMATION
 
-    - Licenses/restrictions placed on the data: None, open for usage.  Obtained from public government source.
+ - Licenses/restrictions placed on the data: None, open for usage.  Obtained from public government source.
 
-    - Links to other publicly accessible locations of the data: [FuelEconomy.gov](https://www.fueleconomy.gov/)
+ - Links to other publicly accessible locations of the data: [FuelEconomy.gov](https://www.fueleconomy.gov/)
 
-    - Was data derived from another source? Yes, [FuelEconomy.gov](https://www.fueleconomy.gov/)'s 'Find and Compare Cars tool'
+ - Was data derived from another source? Yes, [FuelEconomy.gov](https://www.fueleconomy.gov/)'s 'Find and Compare Cars tool'
 
-    - Recommended citation for this dataset: [FuelEconomy.gov](https://www.fueleconomy.gov/)
+ - Recommended citation for this dataset: [FuelEconomy.gov](https://www.fueleconomy.gov/)
 
 
 ## Technologies Used
