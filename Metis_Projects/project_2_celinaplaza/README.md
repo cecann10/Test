@@ -47,7 +47,7 @@ To prepare data for analysis and modeling, dummies were created for categorical 
 
     * [Individual Car Data Collection (Mitsubishi example)](data_and_analysis/mitsubishi_data.ipynb) - one example of format for how each car's year-make-model was collected through web-scraping.  All cars (25) were then pulled into a [master data file](data_and_analysis/all_cars_conjunction_junction_function.ipynb) (also linked below).  All other cars data sets follow format of `[makeofcar]_data.ipynb` for a file name and can be found in [full data and analysis folder](data_and_analysis)
 
-    * [Master data file](data_and_analysis/all_cars_conjunction_junction_function.ipynb) - worksheet where all cars' data was pulled together to create master file
+    * [Master data file](data_and_analysis/all_cars_conjunction_junction_function.ipynb) - worksheet where all cars' data was pulled together to create master file.  csv of final data set is [here](data_and_analysis/csv/all_cars_df.csv)
 
     * [Exploratory Data Analysis & Model Development](data_and_analysis/all_cars_gge_model.ipynb) - worksheet where exploratory data analysis and linear regression model was developed, analyzed, and refined
 
