@@ -17,7 +17,7 @@ Date of data collection: 2020-07-06 through 2020-17-10
 The United States Environmental Protection Agency reports that transportation is the largest contributor of the U.S.’s greenhouse gas emissions (gge) -- 28% of total gge.  The model developed for this project intends to help individuals better understand what features of their car can help inform them what may indicate more or less greenhouse gas emissions from the tailpipe of their car.
 
 ### Goal
-Using a linear regression model, identify features in a car that have a relationship with the total greenhouse gas emissions from that car's tailpipe and also find to what degree each of those features affect the greenhouse gas emissions total.
+Using a linear regression model, identify features in non-electric cars that have a relationship with the total greenhouse gas emissions from that car's tailpipe and also find to what degree each of those features affect the greenhouse gas emissions total.  
 
 ### Findings
 XXXX
@@ -50,6 +50,8 @@ To prepare data for analysis and modeling, dummies were created for categorical 
     * [Master data file](data_and_analysis/all_cars_conjunction_junction_function.ipynb) - worksheet where all cars' data was pulled together to create master file.  csv of final data set is [here](data_and_analysis/csv/all_cars_df.csv)
 
     * [Exploratory Data Analysis & Model Development](data_and_analysis/all_cars_gge_model.ipynb) - worksheet where exploratory data analysis and linear regression model was developed, analyzed, and refined
+
+    * [Images of Graphs](data_and_analysis/images) - folder to find all important graphs created during data analysis
 
 - **Relationship between files**:
     * Files listed above are in order of collection and build from each other, but pickles have been made so that each file can be pulled independent of the other.  All pickles can be found in the [`data_and_analysis/pickles` folder](data_and_analysis/pickles)
@@ -85,4 +87,5 @@ To prepare data for analysis and modeling, dummies were created for categorical 
 
 ## Presentation Materials Used
   * Slidesgo - Template
+  * freepik - Photos
   * Google Slides
