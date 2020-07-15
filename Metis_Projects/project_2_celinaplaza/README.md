@@ -43,18 +43,18 @@ To prepare data for analysis and modeling, dummies were created for categorical 
 ## DATA & FILE OVERVIEW
 
 - **File List**:
-    * [Web Scraping Functions](data_and_analysis/master_functions.py) - functions used for web scraping to obtain information for each car's year-make-model.  ipynb version is [here](data_and_analysis/master_functions.ipynb)
+    * [Web Scraping Functions](data_and_analysis/data/master_functions.py) - functions used for web scraping to obtain information for each car's year-make-model.  ipynb version is [here](data_and_analysis/data/master_functions.ipynb)
 
-    * [Individual Car Data Collection (Mitsubishi example)](data_and_analysis/mitsubishi_data.ipynb) - one example of format for how each car's year-make-model was collected through web-scraping.  All cars (25) were then pulled into a [master data file](data_and_analysis/all_cars_conjunction_junction_function.ipynb) (also linked below).  All other cars data sets follow format of `[makeofcar]_data.ipynb` for a file name and can be found in [full data and analysis folder](data_and_analysis)
+    * [Individual Car Data Collection (Mitsubishi example)](data_and_analysis/data/mitsubishi_data.ipynb) - one example of format for how each car's year-make-model was collected through web-scraping.  All cars (25) were then pulled into a [master data file](data_and_analysis/data/all_cars_conjunction_junction_function.ipynb) (also linked below).  All other cars data sets follow format of `[makeofcar]_data.ipynb` for a file name and can be found in [full data and analysis folder](data_and_analysis)
 
-    * [Master data file](data_and_analysis/all_cars_conjunction_junction_function.ipynb) - worksheet where all cars' data was pulled together to create master file.  csv of final data set is [here](data_and_analysis/csv/all_cars_df.csv)
+    * [Master data file](data_and_analysis/data/all_cars_conjunction_junction_function.ipynb) - worksheet where all cars' data was pulled together to create master file.  csv of final data set is [here](data_and_analysis/csv/all_cars_df.csv)
 
     * [Exploratory Data Analysis & Model Development](data_and_analysis/all_cars_gge_model.ipynb) - worksheet where exploratory data analysis and linear regression model was developed, analyzed, and refined
 
     * [Images of Graphs](data_and_analysis/images) - folder to find all important graphs created during data analysis
 
 - **Relationship between files**:
-    * Files listed above are in order of collection and build from each other, but pickles have been made so that each file can be pulled independent of the other.  All pickles can be found in the [`data_and_analysis/pickles` folder](data_and_analysis/pickles)
+    * Files listed above are in order of collection and build from each other, but pickles have been made so that each file can be pulled independent of the other.  All pickles can be found in the [`data_and_analysis/pickles` folder](data_and_analysis/data/pickles)
 
 - **Presentation Deck**:
     * [PDF version]()
