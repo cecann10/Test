@@ -1,6 +1,5 @@
 
-Title of Dataset:
-**Applying Linear Regression to Investigate Relationship Between Cars' Features and Cars' Greenhouse Gases Emissions from their Tailpipe**
+**Applying Linear Regression to Investigate Relationship Between Cars' Features and Cars' Greenhouse Gases Emissions from their Tailpipe**</br>
 This topic was chosen for Metis Data Science Bootcamp Summer 2020 Cohort's Project 2 on Linear Regression.
 
 ## GENERAL INFORMATION
