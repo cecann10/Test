@@ -19,11 +19,26 @@ The United States Environmental Protection Agency reports that transportation is
 Using a linear regression model, identify features in non-electric cars that have a relationship with the total greenhouse gas emissions from that car's tailpipe and also find to what degree each of those features affect the greenhouse gas emissions total.  
 
 ### Findings
-XXXX
+Multiple features of non-electric cars were explored to build a linear regression model: engine capacity (in liters), number of cylinders, transmission type, transmission speed, fuel type, and year of car model.  Engine capacity and number of cylinders had a very strong correlation to greenhouse gas emissions (0.77 and 0.74 respectively) -- but also susceptible to collinearity so in need to exclude one of them in the model, number of cylinders was removed while engine capacity was kept in due to its higher correlation to greenhouse gas emissions between the two features. In refining features for the optimal model performance, a major hurdle was addressing collinearity, but with feature refinement that was addressed.  Year of car model was an important feature, handled by spliting the years into categories of pre-regulations period (1984-2011) and regulations period (2012-2021).
+
+The final features selected for the model were:
+- x1 = Engine Capacity (in liters)
+- x2 = Automatic Transmission (a 'dummy' value of 1)
+- x3 = Premium Gas (a 'dummy' value of 1)
+- x4 = Regular Gas (a 'dummy' value of 1)
+- x5 = Model Year between 2012-2021 (a 'dummy' value of 1)
+
+Ridge was used to refine the coefficients.  The final formula for the model is:
+Yp  =  227.88 + 60.2(x1) + 13.46(x2) + 47.5(x3) + 32.66(x4) - 63.29(x5)
+
+The R^2 for this model is 69%
+The Mean Absolute Error is 47.2
 
 
 ### Conclusion
-XXXX
+The model demonstrates a relationship between a car's greenhouse gas emissions to its engine capacity, transmission type, fuel type, and model year -- and that relationship can be shown as a linear relationship.  
+
+The linear regression model indicates that a car is more likely to have lower greenhouse gas emissions from its tailpipe if the car has low engine capacity, manual transmission, regular gas, and its model year is between 2012 - 2021.
 
 
 
@@ -56,9 +71,9 @@ To prepare data for analysis and modeling, dummies were created for categorical 
     * Files listed above are in order of collection and build from each other, but pickles have been made so that each file can be pulled independent of the other.  All pickles can be found in the [`data_and_analysis/pickles` folder](data_and_analysis/data/pickles)
 
 - **Presentation Deck**:
-    * [PDF version]()
+    * [PDF version](presentation/presentation_linear_regression_greenhouse_gases_cars.pdf)
     * [Google Slides version](https://docs.google.com/presentation/d/1iQDOqwAb18F0br533TtWnW1NMpT9LyKb7002M31rnDw/edit?usp=sharing)
-    * [PPT version]()
+    * [PPT version](presentation/presentation_linear_regression_greenhouse_gases_cars.zip)
 
 ## SHARING/ACCESS INFORMATION
 
