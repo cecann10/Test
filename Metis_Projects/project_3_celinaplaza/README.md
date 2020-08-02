@@ -49,7 +49,7 @@ Multiple featues were considered for the classifcation modeling:
 - Whether have had more than 12 alcoholic drinks in past year
 - Number of drinks had per day on average for past year
 - Occupation status
-- If have job, number of hours worked in past week  
+- If have job, number of hours worked in past week
 
 Final features of the model were:
 - x1 = Age
@@ -58,7 +58,7 @@ Final features of the model were:
 - x4 = Being a non-Hispanic Black adult (a 'dummy' value of 1)
 - x5 = Having a job (a 'dummy' value of 1)
 
-A logistic Regression model leveraging oversampling for the 'positive' class (= high blood pressure) was found to be the best option between various classification models considered (Logistic Regression, Random Forest, and Decision Tree).
+A logistic Regression model leveraging oversampling for the 'positive' class (= high blood pressure) was found to be the best option between various classification models considered (Logistic Regression, Random Forest, and Decision Tree).  All models had similiar performance numbers, but the Linear Regression model selected could be a a higher threshold than the others while retaining high recall.  The model's resulting features were also easy to interpret and apply for individuals.
 
 This model's main metric of performance was **Recall**, as it was determined that it was important to catch more people that could have high blood pressure (True Positives + False Negatives) vs. looking more to Precision where there would be risk of missing some people that did have high blood pressure (True Positives + False Positives).
 
@@ -70,14 +70,18 @@ Threshold was set at 0.34, resulting in:
 
 **Recall: 0.889**
 Precision: 0.454
-Accuarcy score: 0.662
-F1 Score: 0.602
+Accuarcy score: 0.664
+F1 Score: 0.603
+ROC AUC Score: 0.720
 
 
 ### Conclusion
-The model demonstrates a relationship between a car's greenhouse gas emissions to its engine capacity, transmission type, fuel type, and model year -- and that relationship can be shown as a linear relationship.
+The model demonstrates a relationship between an individual having high blood pressure to their age, weight, race, alcohol consumption, and smoking of cigarettes.
 
-The linear regression model indicates that a car is more likely to have lower greenhouse gas emissions from its tailpipe if the car has low engine capacity, manual transmission, regular gas, and its model year is between 2012 - 2021.
+Age is the most significant of indicators of high blood pressure, followed by weight, then race, alcohol consumption, and cigarette smoking.
+
+
+The model indicates that a person is more likely to have high blood pressure as their age, weight, and alcohol consumption increases.  And also if they currently smoke and idenify as of the race of Non-Hispanic Black.
 
 
 
@@ -105,7 +109,7 @@ This project was specifically about application of classification modeling, so o
 ## DATA & FILE OVERVIEW
 
 - **File List**:
-    * [Data Collection](data_and_modeling/data/NHANES_data_collection.ipynb) - worksheet for pulling in all XPT files that NHANES data originally came in.  Then data was combined to master document, filtered to key features, and cleaned.  csv of cleaned dataset is [here](data_and_modeling/data/csv/nhanes_clean.csv)
+    * [Data Collection](data_and_modeling/data/NHANES_data_collection.ipynb) - worksheet for pulling in all XPT files that NHANES data originally came in.  Then data was combined to master document, filtered to key features, and cleaned.  csv of cleaned dataset is [here](data_and_modeling/data/csv/nhanes_clean.csv) **NOTE ORIGINAL XPT FILES HAVE BEEN REMOVED FROM FOLDER DUE TO SIZE LIMITIONS OF METIS PROJECTS ON GITHUB. THEREFORE FUNCTIONS IN THIS WORKSHEET PULLING IN XPT DATA WILL NOT WORK.**
 
     * [Raw data](data_and_modeling/data/NHANES_files) - all NHANES original survey data in XPT format, categorized in folders according to what information is found in that section of the survey
 
