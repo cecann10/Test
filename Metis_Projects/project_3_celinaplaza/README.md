@@ -111,16 +111,16 @@ This project was specifically about application of classification modeling, so o
 - **File List**:
     * [Data Collection](data_and_modeling/data/NHANES_data_collection.ipynb) - worksheet for pulling in all XPT files that NHANES data originally came in.  Then data was combined to master document, filtered to key features, and cleaned.  csv of cleaned dataset is [here](data_and_modeling/data/csv/nhanes_clean.csv) **NOTE ORIGINAL XPT FILES HAVE BEEN REMOVED FROM FOLDER DUE TO SIZE LIMITIONS OF METIS PROJECTS ON GITHUB. THEREFORE FUNCTIONS IN THIS WORKSHEET PULLING IN XPT DATA WILL NOT WORK.**
 
-    * [Raw data](data_and_modeling/data/NHANES_files) - all NHANES original survey data in XPT format, categorized in folders according to what information is found in that section of the survey
+    * [Exploratory Data Analysis & Model Development](data_and_modeling/nhanes_bp_model.ipynb) - worksheet where exploratory data analysis and classification models were explored, developed, analyzed, and refined.
 
-    * [Exploratory Data Analysis & Model Development](data_and_modeling/nhanes_bp_model.ipynb) - worksheet where exploratory data analysis and classification models were explored, developed, analyzed, and refined
+    * [Images](data_and_modeling/images) - images of key graphs made in data collection and modeling process
 
 - **Relationship between files**:
     * Files listed above are in order of collection and build from each other, but pickles have been made so that each file can be pulled independent of the other.  All pickles can be found in the [`data_and_modeling/data/pickles` folder](data_and_modeling/data/pickles)
 
 - **Presentation Deck**:
     * [PDF version]()
-    * [Google Slides version]()
+    * [Google Slides version](https://docs.google.com/presentation/d/1gitfajWjBjCEeO7Mntv2HIZoynT-rIEznpd1pmIcA1Y/edit?usp=sharing)
     * [PPT version]()
 
 ## SHARING/ACCESS INFORMATION
