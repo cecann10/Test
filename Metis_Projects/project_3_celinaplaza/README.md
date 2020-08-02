@@ -1,5 +1,5 @@
 
-**Predicting High Blood Pressure with Classification Model**</br>
+# Predicting High Blood Pressure with Classification Model
 This topic was chosen for Metis Data Science Bootcamp Summer 2020 Cohort's Project 3 on Classification.
 
 ## GENERAL INFORMATION
