@@ -559,25 +559,25 @@ z
     </g>
    </g>
    <g id="QuadMesh_1">
-    <path clip-path="url(#pe61c846de1)" d="M 61.545937 21.935625 
+    <path clip-path="url(#p97215d23f9)" d="M 61.545937 21.935625 
 L 170.265937 21.935625 
 L 170.265937 130.655625 
 L 61.545937 130.655625 
 L 61.545937 21.935625 
 " style="fill:#08306b;"/>
-    <path clip-path="url(#pe61c846de1)" d="M 170.265937 21.935625 
+    <path clip-path="url(#p97215d23f9)" d="M 170.265937 21.935625 
 L 278.985937 21.935625 
 L 278.985937 130.655625 
 L 170.265937 130.655625 
 L 170.265937 21.935625 
 " style="fill:#083a7a;"/>
-    <path clip-path="url(#pe61c846de1)" d="M 61.545937 130.655625 
+    <path clip-path="url(#p97215d23f9)" d="M 61.545937 130.655625 
 L 170.265937 130.655625 
 L 170.265937 239.375625 
 L 61.545937 239.375625 
 L 61.545937 130.655625 
 " style="fill:#f7fbff;"/>
-    <path clip-path="url(#pe61c846de1)" d="M 170.265937 130.655625 
+    <path clip-path="url(#p97215d23f9)" d="M 170.265937 130.655625 
 L 278.985937 130.655625 
 L 278.985937 239.375625 
 L 170.265937 239.375625 
@@ -1035,7 +1035,7 @@ z
   </g>
   <g id="axes_2">
    <g id="patch_3">
-    <path clip-path="url(#pe31c1a3be7)" d="M 295.725938 239.375625 
+    <path clip-path="url(#p9e0604d1c9)" d="M 295.725938 239.375625 
 L 295.725938 238.52625 
 L 295.725938 22.785 
 L 295.725938 21.935625 
@@ -1121,7 +1121,7 @@ z
      </g>
     </g>
    </g>
-   <image height="216.9" id="imagee4f59abe93" transform="scale(1 -1)translate(0 -216.9)" width="10.8" x="296.1" xlink:href="data:image/png;base64,
+   <image height="216.9" id="imagef96f1f0837" transform="scale(1 -1)translate(0 -216.9)" width="10.8" x="296.1" xlink:href="data:image/png;base64,
 iVBORw0KGgoAAAANSUhEUgAAAAwAAADxCAYAAAD/eVYgAAAABHNCSVQICAgIfAhkiAAAAQtJREFUaIHtmEsKAzEMQ13I/Y/bRSFJjzB5ARvhUdcRz/K3zOf72zvAb+xA72PA9zHg+xjMwVs9cIJgSOz9VeHs4YRABZQQDTxsqFDcGh02nz0cCQTXjNN6ILCHI0EDDxMflHTTS3BrdPBABUsvrYIeFh2gxQA1//n0PKRvPlw4ybRCATedTpjQdclMY4FcSLz58kPKv6L52zs9pAkRfGu4W08EHY5ifqUFPVTMtFxaCzwwwEubT7HS+OziC+TCvYYgGJIcAQ9QB9OSBMGQIOGilyBBMEv5A8S/rBc0n00/Czp44IKCg+I6PAtsOoVwERIVrEkJ7HPORUicIBiSCRIEeh8uCB0GyAQBwh/jqwaCKYqnSQAAAABJRU5ErkJggg==" y="-21.6"/>
    <g id="patch_4">
     <path d="M 295.725938 239.375625 
@@ -1138,10 +1138,10 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="pe61c846de1">
+  <clipPath id="p97215d23f9">
    <rect height="217.44" width="217.44" x="61.545937" y="21.935625"/>
   </clipPath>
-  <clipPath id="pe31c1a3be7">
+  <clipPath id="p9e0604d1c9">
    <rect height="217.44" width="10.872" x="295.725938" y="21.935625"/>
   </clipPath>
  </defs>
