@@ -60,7 +60,7 @@ Final features of the model were:
 
 A logistic Regression model leveraging oversampling for the 'positive' class (= high blood pressure) was found to be the best option between various classification models considered (Logistic Regression, Random Forest, and Decision Tree).  All models had similiar performance numbers, but the Linear Regression model selected could be a a higher threshold than the others while retaining high recall.  The model's resulting features were also easy to interpret and apply for individuals.
 
-This model's main metric of performance was **Recall**, as it was determined that it was important to catch more people that could have high blood pressure (True Positives + False Negatives) vs. looking more to Precision where there would be risk of missing some people that did have high blood pressure (True Positives + False Positives).
+This model's main metric of performance was **Recall**, as it was determined that it was important to catch more people that could have high blood pressure (i.e. lower number False Negatives) vs. looking more to Precision where there would be risk of missing some people that did have high blood pressure (i.e. lower number False Positives).
 
 With scaled data, formula for the model is:
 
@@ -68,10 +68,10 @@ Yp  =  -0.128 + 0.909(x1) + 0.329(x2) + 0.125(x3) + 0.190(x4) - 0.033(x5)
 
 Threshold was set at 0.34, resulting in:
 
-**Recall: 0.889**
+**Recall: 0.899**
 Precision: 0.454
 Accuarcy score: 0.664
-F1 Score: 0.603
+F1 Score: 0.592
 ROC AUC Score: 0.720
 
 
@@ -103,7 +103,7 @@ High blood pressure was determined for each sample by taking the average of thre
 - **Methods for analysis and modeling**:
 This project was specifically about application of classification modeling, so only models in this category were considered.  Logistic Regression, Decision Tree, and Random Forest models were all tested and compared.
 
-'Dummies' were created for categorical data were needed and data was scaled for Logistic Regression modeling.  Imbalance was managed with oversampling for the Logistic Regression model.  Thresholds were considered to best meet target metric of recall performance without too great of sacrifice to other metrics of precision, F1 score, and accuracy.
+'Dummies' were created for categorical data were needed and data was scaled for Logistic Regression modeling.  Imbalance was managed with oversampling for the Logistic Regression model.  GridSearch was implmented to optimize parameters for Decision Tree & Random Forest models.  Thresholds were considered to best meet target metric of recall performance without too great of sacrifice to other metrics of precision, F1 score, and accuracy.
 
 
 ## DATA & FILE OVERVIEW
