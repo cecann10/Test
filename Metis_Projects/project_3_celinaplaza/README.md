@@ -17,7 +17,7 @@ High blood pressure is both a high health risk and economic risk for America.  I
 
 The model developed for this project intends to help the medical community identify those that have high blood pressure and help idenify signals that an individual can be aware of that may cause high blood pressure.
 
-High blood pressure for this model was defined in accordance to American College of Cardiology and the American Heart Association's guidelines published in 2017 that defines high blood pressure as a reading greater than 130 mm Hg for Systolic Blood Pressure and/or greater than 80 mm Hg for Diastolic Blood Pressure.
+High blood pressure for this model was defined in accordance to American College of Cardiology and the American Heart Association's guidelines published in 2017 that defines high blood pressure as a reading greater than 130 mm Hg for Systolic Blood Pressure or greater than 80 mm Hg for Diastolic Blood Pressure.
 
 All data was gathered from the Center for Disease Control's National Health and Nutrition Examination Survey (NHANES) results for the years 2007 - 2016.  The survey is conducted in two-year cycles and is representative of the non-institutionalized, U.S. population. While youth are included in this survey, this model only examined data for adults between the ages of 18-80.
 
@@ -29,10 +29,10 @@ Find a classification model that identifies features of individuals' demographic
 
 ### Findings
 Multiple featues were considered for the classifcation modeling:
-- BMI
-- Waist Circumference
-- Height
-- Weight
+- BMI (kg/m**2)
+- Waist Circumference (cm)
+- Height (cm)
+- Weight (kg)
 - Gender
 - Age
 - Race
@@ -53,7 +53,7 @@ Multiple featues were considered for the classifcation modeling:
 
 Final features of the model were:
 - x1 = Age
-- x2 = Weight
+- x2 = Weight (kg)
 - x3 = Amount of alcohol consumed on average daily in past year
 - x4 = Being a non-Hispanic Black adult (a 'dummy' value of 1)
 - x5 = Having a job (a 'dummy' value of 1)
@@ -144,7 +144,8 @@ This project was specifically about application of classification modeling, so o
   * seaborn
   * sklearn
   * matplotlib
-  * collections
+  * yellowbrick
+  * mlxtend
 
 
 ## Presentation Materials Used
