@@ -68,11 +68,11 @@ Yp  =  -0.121 + 0.887(x1) + 0.340(x2) + 0.139(x3) + 0.152(x4) - 0.005(x5)
 
 Threshold was set at 0.34, resulting in:
 
-**Recall: 0.899**
-Precision: 0.454
-Accuarcy score: 0.664
-F1 Score: 0.592
-ROC AUC Score: 0.720
+- **Recall: 0.899**
+- Precision: 0.454
+- Accuarcy score: 0.664
+- F1 Score: 0.592
+- ROC AUC Score: 0.720
 
 
 ### Conclusion
