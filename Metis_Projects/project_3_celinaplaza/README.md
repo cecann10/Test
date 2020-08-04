@@ -87,11 +87,11 @@ The model indicates that a person is more likely to have high blood pressure as 
 
 ## METHODOLOGICAL INFORMATION
 
-**Methods used for collection/generation of data**:
+#### Methods used for collection/generation of data:
 The data was collected from the [CDC's website](https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/default.aspx) where all survey data is offered in XPT format for free download and access.
 
 
-**Methods for processing and cleaning the data**:
+#### Methods for processing and cleaning the data:
 NHANES uses a code-based system for all of the categorical answers and also to idenify values such as 'Missing' and 'Don't Know'.  Missing or don't know values where removed and some categorical values were simplied to be yes/no responses where appropriate while in other cases where edited to 'real' category text values for readability sake of data.
 
 No values where changed, but in two cases null values were replaced:
@@ -102,7 +102,7 @@ No values where changed, but in two cases null values were replaced:
 High blood pressure was determined for each sample by taking the average of three readings done for survey, all within a 10 minute period.  If the average reading was greater than 130 mm Hg for Systolic Blood Pressure and/or greater than 80 mm Hg for Diastolic Blood Pressure, the sample was marked as having high blood pressure -- all others were marked as not having high blood pressure.
 
 
-**Methods for analysis and modeling**:
+#### Methods for analysis and modeling:
 This project was specifically about application of classification modeling, so only models in this category were considered.  Logistic Regression, Decision Tree, and Random Forest models were all tested and compared.
 
 'Dummies' were created for categorical data were needed and data was scaled for Logistic Regression modeling.  Imbalance was managed with oversampling for the Logistic Regression model.  GridSearch was implmented to optimize parameters for Decision Tree & Random Forest models.  Thresholds were considered to best meet target metric of recall performance without too great of sacrifice to other metrics of precision, F1 score, and accuracy.
@@ -121,9 +121,9 @@ This project was specifically about application of classification modeling, so o
     * Files listed above are in order of collection and build from each other, but pickles have been made so that each file can be pulled independent of the other.  All pickles can be found in the [`data_and_modeling/data/pickles` folder](data_and_modeling/data/pickles)
 
 - **Presentation Deck**:
-    * [PDF version]()
+    * [PDF version](Presentation/High Blood Pressure - Classification Model.pdf)
     * [Google Slides version](https://docs.google.com/presentation/d/1gitfajWjBjCEeO7Mntv2HIZoynT-rIEznpd1pmIcA1Y/edit?usp=sharing)
-    * [PPT version]()
+    * [PPT version](Presentation/High Blood Pressure - Classification Model.pptx)
 
 ## SHARING/ACCESS INFORMATION
 
@@ -155,6 +155,7 @@ This project was specifically about application of classification modeling, so o
   * freepik - Photos
   * Google Slides
 
+
 *Centers for Disease Control and Prevention, National Center for Health Statistics. Underlying Cause of Death, 1999–2017. CDC WONDER Online Database. Atlanta, GA: Centers for Disease Control and Prevention; 2018. Accessed January 7, 2019.
 
-**Kirkland EB, Heincelman M, Bishu KG, et. al. Trends in healthcare expenditures among US adults with hypertension: national estimates, 2003-2014. J Am Heart Assoc. 2018;7:e008731.
+** Kirkland EB, Heincelman M, Bishu KG, et. al. Trends in healthcare expenditures among US adults with hypertension: national estimates, 2003-2014. J Am Heart Assoc. 2018;7:e008731.
