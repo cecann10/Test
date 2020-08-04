@@ -56,7 +56,7 @@ Final features of the model were:
 - x2 = Weight (kg)
 - x3 = Amount of alcohol consumed on average daily in past year
 - x4 = Being a non-Hispanic Black adult (a 'dummy' value of 1)
-- x5 = Having a job (a 'dummy' value of 1)
+- x5 = Being a current cigarette smoker (a 'dummy' value of 1)
 
 A logistic Regression model leveraging oversampling for the 'positive' class (= high blood pressure) was found to be the best option between various classification models considered (Logistic Regression, Random Forest, and Decision Tree).  All models had similiar performance numbers, but the Linear Regression model selected could be a a higher threshold than the others while retaining high recall.  The model's resulting features were also easy to interpret and apply for individuals.
 
@@ -64,7 +64,7 @@ This model's main metric of performance was **Recall**, as it was determined tha
 
 With scaled data, formula for the model is:
 
-Yp  =  -0.128 + 0.909(x1) + 0.329(x2) + 0.125(x3) + 0.190(x4) - 0.033(x5)
+Yp  =  -0.121 + 0.887(x1) + 0.340(x2) + 0.139(x3) + 0.152(x4) - 0.005(x5)
 
 Threshold was set at 0.34, resulting in:
 
