@@ -121,9 +121,9 @@ This project was specifically about application of classification modeling, so o
     * Files listed above are in order of collection and build from each other, but pickles have been made so that each file can be pulled independent of the other.  All pickles can be found in the [`data_and_modeling/data/pickles` folder](data_and_modeling/data/pickles)
 
 - **Presentation Deck**:
-    * [PDF version](Presentation/High Blood Pressure - Classification Model.pdf)
+    * [PDF version](Presentation/Presentation_PDF.zip)
     * [Google Slides version](https://docs.google.com/presentation/d/1gitfajWjBjCEeO7Mntv2HIZoynT-rIEznpd1pmIcA1Y/edit?usp=sharing)
-    * [PPT version](Presentation/High Blood Pressure - Classification Model.pptx)
+    * [PPT version](Presentation/Presentation.PPT.zip)
 
 ## SHARING/ACCESS INFORMATION
 
