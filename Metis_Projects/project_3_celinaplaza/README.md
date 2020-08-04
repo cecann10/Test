@@ -123,7 +123,7 @@ This project was specifically about application of classification modeling, so o
 - **Presentation Deck**:
     * [PDF version](Presentation/Presentation_PDF.zip)
     * [Google Slides version](https://docs.google.com/presentation/d/1gitfajWjBjCEeO7Mntv2HIZoynT-rIEznpd1pmIcA1Y/edit?usp=sharing)
-    * [PPT version](Presentation/Presentation.PPT.zip)
+    * [PPT version](Presentation/Presentation_PPT.zip)
 
 ## SHARING/ACCESS INFORMATION
 
