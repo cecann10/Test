@@ -90,11 +90,11 @@ For exploratory data analysis (EDA) and text pre-processing,
 **NOTE ALL JUPYTER NOTEBOOKS WERE CREATED & EXECUTED IN GOOGLE CLOUD**
 
 - **File List**:
-    - **[EDA, Pre-processing, and Sentiment Analysis](/data_and_analysis/potus_speech_eda_sentiment.ipynb)** - notebook for pulling in original dataset and then conducting exploratory data analysis, text-preprossing, and sentiment analysis of the speech transcripts.
+    - [EDA, Pre-processing, and Sentiment Analysis](data_and_analysis/potus_speech_eda_sentiment.ipynb) - notebook for pulling in original dataset and then conducting exploratory data analysis, text-preprossing, and sentiment analysis of the speech transcripts.
 
-    - **[Topic Model Building & Selection](/data_and_analysis/potus_speech_topics.ipynb)** - notebook for testing topic-generating models for identifying topic categories for every presidential speech.  Also assigning historical periods to each speech.
+    - [Topic Model Building & Selection](data_and_analysis/potus_speech_topics.ipynb) - notebook for testing topic-generating models for identifying topic categories for every presidential speech.  Also assigning historical periods to each speech.
 
-    - **[Sophistication of Speech](/data_and_analysis/potus_speech_grade_level.ipynb)** - notebook for analyzing the text's 'sophistication of speech' (grade level required to understand words in text/speech).  Also where key findings from all notebooks on the speeches is pulled together in a master dataframe to explort for visualization
+    - [Sophistication of Speech](data_and_analysis/potus_speech_grade_level.ipynb) - notebook for analyzing the text's 'sophistication of speech' (grade level required to understand words in text/speech).  Also where key findings from all notebooks on the speeches is pulled together in a master dataframe to explort for visualization
 
     - **Final Master Data File** - **Note that this file is not linked because it was removed to meet size requirements for project submission.  If you run the notebooks, this csv file will be created and can be found in the 'csv' folder.** The file is a csv that includes all key data collected through work on this project.  For each speech, it includes:
 
