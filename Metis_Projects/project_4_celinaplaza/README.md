@@ -1,5 +1,5 @@
 # An Analysis of United States Presidential Speeches Over the Ages
-Using natural language processing To analyze sentiments, topics, and sophistication of US presidential speeches -- finding commonalities and shifts over time and across parties.
+Using natural language processing to analyze sentiments, topics, and sophistication of US presidential speeches -- finding commonalities and shifts over time and across parties.
 
 ## GENERAL INFORMATION
 Author & Investigator: **[Celina Plaza](https://github.com/cecann10)**
@@ -73,7 +73,7 @@ For exploratory data analysis (EDA) and text pre-processing,
 
 - **Presentation Deck**:
     * [PDF version](Presentation/Presentation_PDF.zip)
-    * [Google Slides version](XXX)
+    * [Google Slides version](https://docs.google.com/presentation/d/13ajT7wo3lqLfZNRxJ899g3k6y6apVoLt1-c4uePJu3k/edit?usp=sharing)
     * [PPT version](Presentation/Presentation_PPT.zip)
 
 ## SHARING/ACCESS INFORMATION
@@ -98,7 +98,7 @@ For exploratory data analysis (EDA) and text pre-processing,
   * Python
   * pandas
   * Pickle
-  * regex
+  * re
   * scipy
   * seaborn
   * sklearn
