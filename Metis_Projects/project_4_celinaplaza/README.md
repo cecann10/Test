@@ -70,7 +70,7 @@ Shifts in language and topics of speeches seem to vary more by date than by poli
 
 The lack of distinct difference between political parties of could be due in part to shifts that have occured in political parties over the years that have caused 'flips' on some issues for what party stood for what value, but even in recent years there is no strong line of difference between Republicans and Democrats.
 
-Historical periods -- the state of the nation -- and the period of time showing more difference between speeches indicates that the Presidents more or less follow a tone that they feel is needed for that moment in time, and may model after prior Presidents if seen as being effective with the country.
+Historical periods -- the state of the nation -- and aging of the nation showing more difference between speeches indicates that the Presidents more or less follow a tone that they feel is needed for that moment in time, and may model after prior Presidents if seen as being effective with the country.
 
 
 
