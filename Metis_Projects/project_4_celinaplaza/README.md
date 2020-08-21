@@ -30,7 +30,7 @@ Through analysis of the presidential speeches using Natural Language Processing 
 #### Sentiment:
 Sentiment of individual speeches is very situational-dependent. e.g. the tone of an Inaguaral Address vs. a speech regarding a treaty with Native Americans both given by the same President can be executed with different tones (sad/negative to happy/positive) and subjectivity (opinons vs. facts).
 
-That being said, *average* sentiment of Presidents does show variation by person, but not significantly by party.
+That being said, *average* sentiment of Presidents does show variation by person, while not significantly by political party.
 
 #### Topics:
 
@@ -82,8 +82,8 @@ All data was collected from [Kaggle.com](https://www.kaggle.com/littleotter/unit
 Minimal basic cleaning was required of the text, and when cleaning, no data was changed -- only removed when needed.
 
 
-#### Methods for analysis and modeling:
-For exploratory data analysis (EDA) and text pre-processing,
+#### Methods for modeling:
+For topic modeling, an LDA model with genism was utitlized.  Text pre-processing for the model included lemmatization, custom stopwords, and use of CountVectorizer to vectorize words for modeling and other analysis.
 
 
 ## DATA & FILE OVERVIEW
@@ -118,13 +118,13 @@ For exploratory data analysis (EDA) and text pre-processing,
 
  - Licenses/restrictions placed on the data: None, open for usage.
 
- - Links to other publicly accessible locations of the data: [CDC website](https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/default.aspx)
+ - Links to other publicly accessible locations of the data: The Miller Center at the University of Virginia's [website](https://millercenter.org/the-presidency/presidential-speeches)
 
  - Was data derived from another source? Yes, [Kaggle.com](https://www.kaggle.com/littleotter/united-states-presidential-speeches)
 
  - Recommended citation for this dataset:
-    - Data Source: [CDC's National Health and Nutrition Examination Survey](https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/default.aspx)
-    - Data Collection: Joseph Lilleberg collected data and placed on Kaggle.com in csv for public use.
+    - Data Source: The Miller Center at the University of Virginia's [website](https://millercenter.org/the-presidency/presidential-speeches)
+    - Data Collection: Joseph Lilleberg collected data and placed on [Kaggle.com](https://www.kaggle.com/littleotter/united-states-presidential-speeches) in csv for public use.
 
 
 ## Technologies/Packages Used
