@@ -83,7 +83,7 @@ Minimal basic cleaning was required of the text, and when cleaning, no data was 
 
 
 #### Methods for modeling:
-For topic modeling, an LDA model with genism was utitlized.  Text pre-processing for the model included lemmatization, custom stopwords, and use of CountVectorizer to vectorize words for modeling and other analysis.
+For topic modeling, an LDA model with gensim was utitlized.  Text pre-processing for the model included lemmatization, custom stopwords, and use of CountVectorizer to vectorize words for modeling and other analysis.
 
 
 ## DATA & FILE OVERVIEW
