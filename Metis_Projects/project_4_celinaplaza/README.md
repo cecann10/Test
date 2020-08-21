@@ -110,7 +110,7 @@ For topic modeling, an LDA model with gensim was utitlized.  Text pre-processing
     * Files listed above are in order of collection and build from each other, but csvs and pickles have been made so that each file can be pulled independent of the other.  Note most pickles and csvs created in the notebooks have been removed due to size limitations, but the files will appear once running the notebooks.
 
 - **Presentation Deck**:
-    * [PDF version](presentation/Presentation_PDF.zip)
+    * [PDF version](presentation/Presentation_PDF.pdf)
     * [Google Slides version](https://docs.google.com/presentation/d/13ajT7wo3lqLfZNRxJ899g3k6y6apVoLt1-c4uePJu3k/edit?usp=sharing)
     * [PPT version](presentation/Presentation_PPT.zip)
 
